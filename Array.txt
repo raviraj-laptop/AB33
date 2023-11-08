@@ -1,0 +1,46 @@
+package class_Demo;           //Array
+
+public class Array_4          //Class Demo
+{
+
+	public static void main(String[] args)
+	{
+		//print name
+		String name[]=new String[3]; //Initialization and declaration of array
+        name[0]="Ram";
+        name[1]="Vishnu";
+        name[2]="Bhim";          //To avoid repeatation of code we use for loop
+        for(int i=0; i<=2; i++)
+        {
+          System.out.println(name[i]);
+
+        }
+      
+        
+        //Print Age
+        int age[]=new int[3];
+        age[0]=51;
+        age[1]=93;
+        age[2]=11;
+        for(int j=0; j<=2; j++)
+        {
+          System.out.println(age[j]);
+        }
+   
+        //Print Salary
+        double salary[]=new double[3];
+        salary[0]=143.11;
+        salary[1]=265.22;
+        salary[2]=11.33;
+        
+        for(int k=0; k<=2; k++)
+        {
+          System.out.println(salary[k]);
+
+        }
+      
+
+       
+	}
+
+}
